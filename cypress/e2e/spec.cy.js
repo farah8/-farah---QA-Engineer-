@@ -1,5 +1,5 @@
 describe('Segment Creation', () => {
-  it('should create a new segment with specified criteria', () => {
+  it('should create and delete a new segment with specified criteria', () => {
     cy.visit('https://app.gameball.co'); // Gameball login URL
 
     // Wait for the title to be 'Gameball | Dashboard'
